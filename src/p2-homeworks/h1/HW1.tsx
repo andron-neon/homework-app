@@ -9,8 +9,7 @@ const messageData = {
 }
 
 function HW1() {
-    return (
-        <div>
+    return <div>
             <hr/>
             homeworks 1
 
@@ -28,7 +27,7 @@ function HW1() {
             {/*<AlternativeMessage/>*/}
             <hr/>
         </div>
-    )
+
 }
 
 export default HW1

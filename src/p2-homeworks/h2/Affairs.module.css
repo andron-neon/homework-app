@@ -1,3 +1,39 @@
-.someClass {
+.button {
+    margin: 10px;
+    width: 60px;
+    background: slateblue;
+    color: black;
+    outline: none;
+}
+.button:focus {
+    outline: #61dafb solid 1px;
 
+}
+.button:active {
+    background: black;
+
+}
+.active {
+    background: palegreen;
+
+}
+.affair {
+    display: flex;
+
+}
+.item {
+    margin: 10px;
+    width: 100px;
+
+}
+.high {
+    color: aqua;
+
+}
+.middle {
+    color: cornflowerblue;
+
+}
+.low {
+    color: chartreuse;
 }
